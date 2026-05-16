@@ -6,7 +6,7 @@
 
   A [Claude Code](https://claude.ai/code) skill for managing todos.
 
-  > Because not everything deserves a ticket
+  > *Because not everything deserves a ticket*
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
 
