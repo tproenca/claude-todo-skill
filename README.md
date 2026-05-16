@@ -34,3 +34,7 @@ cp -r .claude/skills/todo ~/.claude/skills/todo
 ```
 
 The `/todo` command will then be available in all your projects.
+
+## License
+
+MIT
