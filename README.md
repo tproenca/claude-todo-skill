@@ -35,6 +35,10 @@ cp -r .claude/skills/todo ~/.claude/skills/todo
 
 The `/todo` command will then be available in all your projects.
 
+## Acknowledgements
+
+Inspired by [Nilmax Moura](https://github.com/nilmax), the undisputed king of todos that never get done.
+
 ## License
 
 MIT
