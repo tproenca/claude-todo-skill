@@ -1,6 +1,18 @@
-# claude-todo
+<div align="center">
 
-A Claude Code skill for managing todos.
+<img src="robot.svg" alt="Claude Code" width="110">
+
+  # claude-todo
+
+  A [Claude Code](https://claude.ai/code) skill for managing todos.
+
+  > Because not everything deserves a ticket
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
+
+</div>
+
+---
 
 ## Skills
 
@@ -34,6 +46,15 @@ cp -r .claude/skills/todo ~/.claude/skills/todo
 ```
 
 The `/todo` command will then be available in all your projects.
+
+## Natural language
+
+Once the skill is loaded, you don't need to use `/todo` explicitly. Claude understands intent — just talk to it:
+
+- *"remind me to update the changelog"* → adds a todo
+- *"what's left to do?"* → lists open todos
+- *"mark the auth PR as done"* → checks it off
+- *"clean up the list and sort by priority"* → reprioritizes
 
 ## Acknowledgements
 
