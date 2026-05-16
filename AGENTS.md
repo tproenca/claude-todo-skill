@@ -4,8 +4,8 @@ Standing instructions and context for all agents working in this repository.
 
 ## Project
 
-**devflow** is a collection of Claude Code skills for developer workflow utilities.
-Skills live under `.claude/skills/` and are designed to be copied into `~/.claude/skills/` for personal use across projects, or packaged into a plugin for community distribution.
+**claude-todo** is a Claude Code skill for managing a `TODO.md` file across projects.
+The skill lives under `.claude/skills/todo/` and is designed to be copied into `~/.claude/skills/` for personal use, or packaged into a plugin for community distribution.
 
 ## Repository Structure
 

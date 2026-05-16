@@ -1,6 +1,6 @@
-# devflow
+# claude-todo
 
-Claude Code skills for developer workflow utilities.
+A Claude Code skill for managing todos.
 
 ## Skills
 
