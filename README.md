@@ -19,7 +19,15 @@ Manage a `TODO.md` file in any project.
 
 ## Installation
 
-Copy the skill into your personal Claude Code skills folder:
+**Option 1 — Ask Claude Code to install it:**
+
+Open this repo in Claude Code and say:
+
+> "Can you install the skill?"
+
+Claude will copy it to `~/.claude/skills/todo/` for you.
+
+**Option 2 — Manual:**
 
 ```bash
 cp -r .claude/skills/todo ~/.claude/skills/todo
