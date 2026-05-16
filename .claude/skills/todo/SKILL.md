@@ -19,6 +19,6 @@ Manage a `TODO.md` file in the current project.
 - Tags are inline at the end of the item text, formatted as `#tag`.
 - An item can have multiple tags: `[ ] Review PRD #backend #docs`.
 - Completed items (`[x]`) are kept at the bottom of the file, below open items.
-- If `TODO.md` does not exist, create it when the first item is added.
+- If `TODO.md` does not exist, create it when the first item is added. If the current directory is inside a git repository (check with `git rev-parse --is-inside-work-tree`), ask the user: "TODO.md will be created — add it to .gitignore so it stays local?" If they say yes, append `TODO.md` to the project's `.gitignore` (creating it if needed) before writing the file.
 - After every write operation, confirm what changed in one short sentence.
 - Never reformat or reorder items unless the user explicitly runs `prioritize`.
